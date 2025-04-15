@@ -1,6 +1,5 @@
 # 🧾 API de Productos del Marketplace - NestJS
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![NestJS](https://img.shields.io/badge/NestJS-%F0%9F%90%8D-red)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
