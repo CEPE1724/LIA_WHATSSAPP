@@ -22,20 +22,14 @@ Cada endpoint retorna respuestas detalladas y consistentes en formato JSON.
 - [NestJS](https://nestjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/)
-- [sqlserver] *(ajustar según tu base de datos)*
+- [sqlserver] 
 - [Swagger](https://swagger.io/) *(documentación interactiva)*
 
 ---
 
 ## 🛠 Configuración del Entorno
 
-Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
-
-```env
-PORT=5991
-BASE_URL=http://localhost:5991/api/v1
-DATABASE_URL=...
-```
+Crea un archivo `.env` en la raíz del proyecto con las variables de .env.template
 
 Instala las dependencias:
 
@@ -47,17 +41,6 @@ Levanta el servidor:
 
 ```bash
 npm run start:dev
-```
-
----
-
-## 🔐 Autenticación
-
-*(Si tu API tiene autenticación)*  
-Algunos endpoints pueden requerir token JWT. Asegúrate de incluirlo en los headers de tus solicitudes:
-
-```http
-Authorization: Bearer <tu_token>
 ```
 
 ---
