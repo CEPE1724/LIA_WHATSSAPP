@@ -23,7 +23,7 @@ Cada endpoint retorna respuestas detalladas y consistentes en formato JSON.
 - [NestJS](https://nestjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/)
-- [PostgreSQL / MongoDB] *(ajustar según tu base de datos)*
+- [sqlserver] *(ajustar según tu base de datos)*
 - [Swagger](https://swagger.io/) *(documentación interactiva)*
 
 ---
